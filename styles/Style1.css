@@ -1,0 +1,86 @@
+h2{
+    text-align: center;
+}
+
+
+
+/*ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 20%;
+}
+
+*/
+
+/*Extraido de prueba*/
+header{
+    /*display: flex;*/
+    background-color: #333;
+    padding: 1px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: rgb(5, 3, 83);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+/*FIN Extraido de prueba*/
+
+
+nav a:hover{
+    color: #1915f7;
+    text-decoration: underline;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+section {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+header, footer {
+    background-color: #fff0a5;
+    color: rgb(5, 3, 83);
+    text-align: center;
+    padding: 1em 0;
+}
+div{
+    padding: 1em;
+}
+nav{
+    color: rgb(5, 3, 83);
+    text-align: left;
+    font-size: 18;
+}
+button{
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #555;
+}

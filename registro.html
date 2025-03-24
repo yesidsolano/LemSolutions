@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/styles/cssregistro.css"> 
+</head>
+<body>
+    <header>
+        <img src="https://lemniscateacademico.odoo.com/web/image/325-8f1aa984/logo%20Lemniscate%20CURVAS.png" width="150px" >
+            <h1>Lemniscate Solutions SAS</h1>
+            <nav>
+                <ul >
+                    <li type="none"><a href="/index.html">Inicio</a></li>
+                    <li type="none"><a href="/productos.html">Productos</a></li>
+                    <li type="none"><a href="/about.html">Sobre nosotros</a></li>
+                    <li type="none"><a href="/registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div>
+        <section>
+            <h1 style="text-align: center;">Registro de participantes</h1>
+            <form class="formulario" onsubmit="return validarFormulario()">
+                <label>Nombre: </label>
+                <input type="text" id="Nombre" name="nombre">
+                <label>Teléfono: </label>
+                <input type="number" id="telefono" name="telefono">
+                <label>Correo: </label>
+                <input type="email" id="email" name="email">
+                <label>Dirección: </label>
+                <input type="text" id="direccion" name="direccion">
+                <label>Usuario: </label>
+                <input type="text" id="direccion" name="direccion">
+                <label>Contraseña: </label>
+                <input type="text" id="contrasena" name="contrasena">
+                <label>Cargar documento de identidad: </label>
+                <input type="file" id="imagen" name="imagen" accept="imagen" onchange="mostrarImagen(event)">
+                <img id="ver-imagen" class="ver-imagen">
+                <button type="submit" style="border-radius: 10px;">Registrar</button>
+                <label style="text-align: center;">***** Por favor ingresar todos los datos *****</label>
+            </form>
+        </section>
+    </div>
+    <script src="/script.js"></script>
+    <footer style="text-align: center;">Talento Tech - Etraining 2025</footer>
+</body>
+</html>
